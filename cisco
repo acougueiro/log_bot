@@ -1,0 +1,70 @@
+term length 0
+dir all
+show clock detail
+show ver
+!HARDWARE
+show module
+show diag
+show diagbus
+show redundancy
+show led
+show inventory raw
+show env
+show env all
+show hw all fpd 
+show power
+show inventory
+show environment power_supply
+show gsr power-mgr detail
+!ROTEAMENTO
+show cef linecard
+show ip route summary
+show ip vrf
+show ip vrf detail
+show ip route 0.0.0.0
+!OSPF
+show ip route ospf neighbor
+show ip ospf statistics
+show ip ospf database
+show route ip ospf
+!ISIS
+show clns nei
+show isis neighbor
+show isis topology
+show isis database
+!BGP
+show ip bgp summ
+show ip bgp vpnv4 all sum
+show ip bgp neighbor
+!MPLS
+show mpls interfaces
+show mpls ldp neig
+show mpls interfaces
+show mpls ldp discovery
+show tag-switching tdp discovery
+show tag-switching tdp neighbor
+!BFD
+!L2VPN
+!MULTICAST
+show ip pim interface
+show ip pim neighbor
+show ip pim mdt
+sho mfib linecard
+!INTERFACES
+show ip int brie
+show int status
+show int desc
+show int
+!CONFIGURATION
+show arp
+show proc | i CPU
+show policy-map
+show class-map
+show idprom all
+show vrrp all
+show vrrp brief
+show clock detail
+show standby brief
+show runn
+exit
+
