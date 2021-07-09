@@ -1,29 +1,4 @@
 #!/usr/bin/python3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##MODULOS#################################################################################################################################################################
 import time
 import sys
@@ -33,9 +8,9 @@ import getpass
 import datetime
 import glob
 ##VARIAVEIS###############################################################################################################################################################
-user="a0095769"
-senha="!H3nr1qu51"
-jump ="200.204.1.4"
+user="user_de_rede"
+senha="pass_de_rede"
+jump ="ip_servidor_de_acesso"
 ssh=("ssh -l " + user + " " + jump )
 os.path.dirname(os.path.abspath(__file__))
 
